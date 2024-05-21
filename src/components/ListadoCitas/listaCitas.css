@@ -1,0 +1,38 @@
+
+.lista-citas {
+  margin-top: 20px;
+}
+
+.lista-citas .cita {
+  padding: 1rem;
+  background: white;
+  border-bottom: 1px solid #e1e1e1;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.lista-citas .cita p {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.lista-citas .cita p span {
+  font-weight: normal;
+}
+
+.lista-citas .cita:first-of-type {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.lista-citas .cita:last-of-type {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.lista-citas .button.eliminar,
+.lista-citas .button.eliminar:hover {
+  background-color: #c10059;
+  color: white;
+  margin-top: 1rem;
+}

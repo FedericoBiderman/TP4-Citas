@@ -1,0 +1,29 @@
+.cita {
+  padding: 1rem;
+  border-bottom: 1px solid #e1e1e1;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.cita p {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.cita p span {
+  font-weight: normal;
+}
+
+.button.eliminar {
+  background-color: #c10059;
+  color: white;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button.eliminar:hover {
+  background-color: #ff0059;
+}
